@@ -1,0 +1,368 @@
+#########
+## T2  ##
+#########
+
+# Nos vasamos en la pauta de la tarea 1, ayudantia 2 y ayudantia 3 
+# para realizar la tarea
+
+# Importacion de Datos y Preliminar -------------------------------------------
+
+# Descargamos las tablas y las unimos en una base mediane merge segun RBD
+require(reshape)
+simce8b2019_rbd = rename(simce8b2019_rbd, c(rbd = "RBD"))
+base = merge(x = Resumen_Matricula_EE_Oficial_2019, 
+             y = Preferentes_Prioritarios_y_Beneficiarios_SEP_2019)
+base = merge(x = base, y = simce8b2019_rbd, by = c("RBD"))
+
+# Eliminamos missings de variables relevantes
+base = base[!is.na(base$prom_mate8b_rbd),]
+
+# Creación variable proporsión de estudiantes prioritarios
+PROP_PRIO = base$N_PRIO/base$MAT_TOTAL
+base = cbind(base, PROP_PRIO)
+
+# Creacion variable puntaje simce mat estandarizado.
+pje_simce_mat = (base$prom_mate8b_rbd - 
+                   mean(base$prom_mate8b_rbd))/sd(base$prom_mate8b_rbd)
+# Se utilizan valores estandarizados como variable puntaje_simce
+base = cbind(base, pje_simce_mat)
+
+
+# P1 ----------------------------------------------------------------------
+# a)
+
+attach(base)
+
+# Definimos nuestras variables
+X = PROP_PRIO
+y = pje_simce_mat
+
+# Se define la funcion de maxima verosimilitud
+max_ver <- function(par, y, x){
+  
+  alfa <- par[1]
+  beta <- par[2]
+  sigma <- par[3]
+  
+  R = y - alfa - beta*x
+  -sum(dnorm(R, mean=0, sigma, log=TRUE))
+}
+# Utilizaremos dnorm dado que sabemos que los residuos distribuyen normal de 
+# media 0 y desviacion sigma
+# sum(R_i) ~ N(0, sigma)
+# Utilizaremos log=TRUE dado que como las variables aleatorias (Los residuos) 
+# son indep., entonces estos se multiplican, pero como en R no existe la 
+# pitatoria, aplicamos logaritmo para poder ocupar sum()
+
+# Para optimizar (minimizar) nuestra funcion de maxima verosimilitud, debemos 
+# tener una estimacion de los parametros a priori
+# Para ello utilizaremos las estimaciones simples como sigue para cada variable
+# Estas estimaciones son las esperanzas condiconales para cada subgrupo
+
+alfa_est = mean(X)
+beta_est = mean(y)
+sigma_est = sd(X)
+
+theta = c(alfa_est, beta_est, sigma_est)
+
+# Luego optimizamos nuestra funcion de 
+# maxima verosimilitud con la funcion optim()
+
+fmv <- optim(fn = max_ver,             # Funcion a optimizar
+             par = theta,              # Vector de parametros
+             x = PROP_PRIO,                  # Datos empiricos
+             y = pje_simce_mat)
+
+# Mostramos los parametros estimados por nuestra funcion
+
+fmv$par
+# Alfa=1.4155037 Beta=-2.5145241 e=0.7808265
+
+# b)
+# puntaje_simce = a + beta * PROP_PRIO + e
+beta = cov(X,y)/var(X)
+intercepto = mean(y) - beta*mean(X)
+print(intercepto)
+print(beta)
+# Alfa=1.415655 Beta=-2.514957
+
+# Podemos ver que los dos resutados son equivalentes
+
+# P2 ----------------------------------------------------------------------
+# a)
+# Basado en: https://stackoverflow.com/questions/40901445/function-
+# to-calculate-r2-r-squared-in-r
+# Por estadística sabemos que: 
+# R^2 ~ B^2*var(x)/var(y) ~ cov(x,y)^2/(var(x)*var(y))
+
+rsq <- function(X,y) {(cov(X,y)^2)/(var(X)*var(y))} # Definimos funcion de R^2
+rsq(X,y) #Resolvemos, 0.3904754
+
+# b)
+# Desarrollamos el nuevo modelo de regresion lineal
+# Definimos nuestras variables
+PP <- c()
+PS <- c()
+for(i in COD_DEPE2){
+  if(i == 3){
+    PP = c(PP, 1)
+  } else{PP = c(PP, 0)}
+  if(i == 2){
+    PS = c(PS, 1)
+  } else{PS = c(PS, 0)}
+}
+base = cbind(base, PP)
+base = cbind(base, PS)
+
+X = cbind(1, PROP_PRIO, MAT_TOTAL, PP, PS)
+X1 = PROP_PRIO
+X2 = MAT_TOTAL
+X3 = PP
+X4 = PS
+y = pje_simce_mat
+
+# Ocumas nuestra función que calcula R^2 con los valores ajustados de X 
+Modelo = lm(y ~ X)
+rsq(Modelo$fitted.values, y) # 0.4249642
+ 
+
+# P3 ----------------------------------------------------------------------
+# Procedemos a calcular cada uno de los beta de forma manual
+# Creamos una funcion que calcule Beta
+beta <- function(y, X){
+  beta = solve(t(X)%*%X)%*%t(X)%*%y
+  return (beta)
+}
+beta(y, X) # -1.6746598822, 0.0003457221, 0.7589938237, 0.2191008677
+
+# Creamos nuestra función que calcula el error estandar
+# del vector de coeficientes
+varianza <- function(y, X){
+  b = beta(y, X)
+  u = y - X%*%b
+  sigma2 = sd(u)^2
+  print(sigma2)
+  varianza = sigma2 * solve(t(X)%*%X)
+  return (varianza)
+}
+varianza(y, X) # 0.5750358
+
+# P4 ----------------------------------------------------------------------
+# a) 
+# Procedemos a generar las variables para FWL
+X1 = PROP_PRIO
+X2 = cbind(MAT_TOTAL, PP, PS)
+y = pje_simce_mat
+
+# Ahora veamos los valores de los coeficientes aplicando FWL
+Modelo1 = lm(y ~ 0+X2)
+y_res = Modelo1$residuals
+
+Modelo2 = lm(X1 ~ 0+X2)
+x1_res = Modelo2$residuals
+
+# Se utiliza la pauta T1
+tabla = cbind(y_res, x1_res)
+t = tabla[order(tabla[,"y_res"], tabla[,"x1_res"]), ]
+
+# La relación se particiona según PROP_PRIO en 20 percentiles
+n = 5818 # número de observaciones
+n_sets = 20 # número de sets -> observaciones finales
+obs = n/n_sets # observaciones por sets
+nueva_y = vector()
+nueva_x = vector()
+inicio = 0
+
+# Para cada set se calculan los promedios de las observaciones
+# Se agrega cada promedio a los vectores
+for (i in 1:20)
+{
+  desde = (inicio)*obs+1
+  hasta = i*obs
+  nueva_y = append(nueva_y, mean(t[desde:hasta, "y_res"]))
+  nueva_x = append(nueva_x, mean(t[desde:hasta, "x1_res"]))
+  inicio = inicio + 1
+}
+
+beta_res = cov(nueva_x, nueva_y)/var(nueva_x)
+intercepto_res = mean(nueva_y) - beta_res*mean(nueva_x)
+# Se grafican los puntos promedios, creando el binscatter
+plot(nueva_x,nueva_y, pch = 19, col = "black", 
+     main="Proporción Estudiantes Prioritarios v/s Puntaje SIMCE Matemática", 
+     xlab = "PROP_PRIO", ylab = "y")
+abline(a=intercepto_res, b=beta_res, col = "red")
+
+#Ahora realizamos el binscattered con datos no residualizados
+tabla = cbind(pje_simce_mat, PROP_PRIO)
+t = tabla[order(tabla[,"PROP_PRIO"], tabla[,"pje_simce_mat"]), ]
+
+# La relación se particiona según PROP_PRIO en 20 percentiles
+n = 5818 # número de observaciones
+n_sets = 20 # número de sets -> observaciones finales
+obs = n/n_sets # observaciones por sets
+nueva_y = vector()
+nueva_x = vector()
+inicio = 0
+
+# Para cada set se calculan los promedios de las observaciones
+# Se agrega cada promedio a los vectores
+for (i in 1:20)
+{
+  desde = (inicio)*obs+1
+  hasta = i*obs
+  nueva_y = append(nueva_y, mean(t[desde:hasta, "pje_simce_mat"]))
+  nueva_x = append(nueva_x, mean(t[desde:hasta, "PROP_PRIO"]))
+  inicio = inicio + 1
+}
+
+beta = cov(nueva_x, nueva_y)/var(nueva_x)
+intercepto = mean(nueva_y) - beta*mean(nueva_x)
+# Se grafican los puntos promedios, creando el binscatter
+plot(nueva_x,nueva_y, pch = 19, col = "black", 
+     main="Proporción Estudiantes Prioritarios v/s Puntaje SIMCE Matemática", 
+     xlab = "PROP_PRIO", ylab = "y")
+abline(a=intercepto, b=beta, col = "red")
+
+# Ahora graficamos las dos lineas juntas
+abline(a=intercepto, b=beta, col = "red")
+abline(a=intercepto_res, b=beta_res, col = "blue")
+# P5 ----------------------------------------------------------------------
+
+# (1) Regresión bivariada
+# (1.A)
+
+X = PROP_PRIO
+y = log(prom_mate8b_rbd)
+
+# Sacamos coeficientes e intercepto
+covarianza = mean(X*y) - mean(X)*mean(y)
+varianza = mean(X**2) - (mean(X)**2)
+beta = covarianza/varianza
+beta # -0.2768726
+sd(X) # 0.2484656
+rsq(y,X) # 0.3768577
+
+# (1.B)
+# puntaje_simce = a + beta * PROP_PRIO + e
+X = PROP_PRIO
+y = pje_simce_mat
+
+# Sacamos coeficientes e intercepto
+covarianza = mean(X*y) - mean(X)*mean(y)
+varianza = mean(X**2) - (mean(X)**2)
+beta = covarianza/varianza
+beta # -2.514957
+sd(X) # 0.2484656
+rsq(X,y) # 0.3904754
+
+# (2)
+# (2.A)
+X1 = PROP_PRIO
+X2 = cbind(1, MAT_TOTAL, PP, PS)
+y = log(prom_mate8b_rbd)
+
+beta(y, X) # 8.173193
+sigma(y, X) # 2.101414
+Modelo = lm(y ~ X1 + X2)
+rsq(Modelo$fitted.values, y) # 0.4072521
+
+# (2.B)
+X1 = PROP_PRIO
+X2 = cbind(1, MAT_TOTAL, PP, PS)
+y = pje_simce_mat
+
+# Creamos una función que calcula nuestro vector de coeficientes
+# y otra el sigma.
+beta <- function(y, X){
+  beta = solve(t(X)%*%X)%*%t(X)%*%y
+  return (beta)
+}
+sigma <- function(y, X){
+  b = beta(y, X)
+  u = y - X%*%b
+  sigma = sd(u)
+  return (sigma)
+}
+beta(y, X) # -0.4100502
+sigma(y, X) # 0.9397076
+Modelo = lm(y ~ X1 + X2)
+rsq(Modelo$fitted.values, y) # 0.4249642
+
+# (3)
+# (3.A)
+X1 = PROP_PRIO
+X2 = cbind(1, MAT_TOTAL, PP, PS, X_1)
+y = log(prom_mate8b_rbd)
+
+beta(y, X) # 8.173193
+sigma(y, X) # 2.101414
+Modelo = lm(y ~ X1 + X2)
+rsq(Modelo$fitted.values, y) # 0.4072521
+
+# (3.B)
+# Generamos nueva variable
+X_1 = dnorm(0, 0.015) + PROP_PRIO
+
+X1 = cbind(PROP_PRIO)
+X2 = cbind(1, MAT_TOTAL, PP, PS, X_1)
+y = pje_simce_mat
+
+beta(y, X) # -0.4100502
+sigma(y, X) # 0.9397076
+Modelo = lm(y ~ X1 + X2)
+rsq(Modelo$fitted.values, y) # 0.4249642
+
+# (4)
+# (4.A)
+pje_log = log(base$prom_mate8b_rbd) #Nueva columna de la base
+base = cbind(base, pje_log)
+attach(base)
+
+n = 5818 # número de observaciones
+n_sets = 20 # número de sets -> observaciones finales
+obs = n/n_sets # observaciones por sets
+nueva_y = vector()
+nueva_x = vector()
+inicio = 0
+
+# Para cada set se calculan los promedios de las observaciones
+# Se agrega cada promedio a los vectores
+for (i in 1:20)
+{
+  desde = (inicio)*obs+1
+  hasta = i*obs
+  nueva_y = append(nueva_y, mean(t[desde:hasta, "PROP_PRIO"]))
+  nueva_x = append(nueva_x, mean(t[desde:hasta, "pje_log"]))
+  inicio = inicio + 1
+}
+
+beta = cov(nueva_x, nueva_y)/var(nueva_x)
+beta # -0.3823316
+sd(nueva_x) # 0.651639
+Modelo = lm(nueva_y ~ nueva_x) 
+rsq(Modelo$fitted.values, nueva_y) # 0.959184
+
+# (4.B)
+n = 5818 # número de observaciones
+n_sets = 20 # número de sets -> observaciones finales
+obs = n/n_sets # observaciones por sets
+nueva_y = vector()
+nueva_x = vector()
+inicio = 0
+
+# Para cada set se calculan los promedios de las observaciones
+# Se agrega cada promedio a los vectores
+for (i in 1:20)
+{
+  desde = (inicio)*obs+1
+  hasta = i*obs
+  nueva_y = append(nueva_y, mean(t[desde:hasta, "PROP_PRIO"]))
+  nueva_x = append(nueva_x, mean(t[desde:hasta, "pje_simce_mat"]))
+  inicio = inicio + 1
+}
+
+beta = cov(nueva_x, nueva_y)/var(nueva_x)
+beta # -0.3823316
+sd(nueva_x) # 0.651639
+Modelo = lm(nueva_y ~ nueva_x) 
+rsq(Modelo$fitted.values, nueva_y) # 0.959184

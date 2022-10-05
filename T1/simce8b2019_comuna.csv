@@ -1,0 +1,347 @@
+agno|grado|cod_reg|nom_reg|cod_pro|nom_pro|cod_com|nom_com|cod_deprov|nom_deprov|prom_lect8b_com|prom_mate8b_com|prom_soc8b_com|dif_lect8b_com|dif_mate8b_com|dif_soc8b_com|sigdif_lect8b_com|sigdif_mate8b_com|sigdif_soc8b_com|fecha_bbdd|codigo_bbdd
+2019|8b|1|Región de Tarapacá|11|Iquique|1101|Iquique|11|Iquique|242|259|246|0|4|-19|0|0|-1|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|11|Iquique|1107|Alto Hospicio|11|Iquique|234|251|241|-4|-1|-9|0|0|-1|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|1401|Pozo Almonte|14|Tamarugal|228|250|233|0|13|1|0|1|0|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|1402|Camiña|14|Tamarugal|221|219|224|-42|-42|-27|-1|-1|-1|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|1403|Colchane|14|Tamarugal|235|247|235|34|33|-7|1|1|0|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|1404|Huara|14|Tamarugal|206|217|231|-24|4|5|-1|0|0|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|1405|Pica|14|Tamarugal|222|241|229|-10|8|-10|0|0|0|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|21|Antofagasta|2101|Antofagasta|21|Antofagasta|243|259|248|-3|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|21|Antofagasta|2102|Mejillones|21|Antofagasta|213|243|228|-12|10|-13|-1|1|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|21|Antofagasta|2103|Sierra Gorda|21|Antofagasta|243|251|244|16|25|14|0|1|0|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|21|Antofagasta|2104|Taltal|21|Antofagasta|213|229|220|-1|6|-19|0|0|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|22|El Loa|2201|Calama|22|El Loa|243|260|248|-3|4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|22|El Loa|2202|Ollagüe|22|El Loa|265|289|303|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|22|El Loa|2203|San Pedro de Atacama|22|El Loa|214|260|226|-18|3|-31|-1|0|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|23|Tocopilla|2301|Tocopilla|21|Antofagasta|232|242|236|-1|8|-10|0|1|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|23|Tocopilla|2302|María Elena|21|Antofagasta|219|248|222|-19|-10|-22|-1|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|31|Copiapó|3101|Copiapó|31|Copiapo - Chanaral|233|250|244|-8|-1|-9|-1|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|31|Copiapó|3102|Caldera|31|Copiapo - Chanaral|234|246|236|-4|1|-8|0|0|0|20200807|final20200807v1
+2019|8b|3|Región de Atacama|31|Copiapó|3103|Tierra Amarilla|31|Copiapo - Chanaral|219|218|227|9|10|6|0|0|0|20200807|final20200807v1
+2019|8b|3|Región de Atacama|32|Chañaral|3201|Chañaral|31|Copiapo - Chanaral|226|235|232|-4|15|-11|0|1|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|32|Chañaral|3202|Diego de Almagro|31|Copiapo - Chanaral|231|244|245|-3|0|-9|0|0|0|20200807|final20200807v1
+2019|8b|3|Región de Atacama|33|Huasco|3301|Vallenar|32|Huasco - Vallenar|241|257|247|-5|6|-9|0|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|33|Huasco|3302|Alto del Carmen|32|Huasco - Vallenar|231|230|234|-1|18|8|0|1|0|20200807|final20200807v1
+2019|8b|3|Región de Atacama|33|Huasco|3303|Freirina|32|Huasco - Vallenar|225|223|228|0|10|-23|0|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|33|Huasco|3304|Huasco|32|Huasco - Vallenar|230|234|236|-8|3|3|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4101|La Serena|41|Elqui|246|268|258|-6|0|-10|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4102|Coquimbo|41|Elqui|241|259|250|2|5|-6|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4103|Andacollo|41|Elqui|237|251|249|-12|3|5|-1|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4104|La Higuera|41|Elqui|236|238|236|15|22|16|1|1|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4105|Paihuano|41|Elqui|232|241|242|-4|-1|8|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|4106|Vicuña|41|Elqui|233|249|241|-3|7|-3|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Limarí|4303|Monte Patria|42|Limari|231|253|239|-6|7|-11|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Limarí|4304|Punitaqui|42|Limari|231|253|242|-9|7|1|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Limarí|4305|Río Hurtado|42|Limari|238|241|243|5|3|0|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|42|Choapa|4201|Illapel|43|Choapa|235|248|242|-10|6|-12|-1|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|42|Choapa|4202|Canela|43|Choapa|237|245|237|-5|5|-14|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|42|Choapa|4203|Los Vilos|43|Choapa|226|247|233|-7|0|-15|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|42|Choapa|4204|Salamanca|43|Choapa|232|244|241|-5|6|-13|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Limarí|4301|Ovalle|42|Limari|244|259|254|-3|5|-3|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Limarí|4302|Combarbalá|42|Limari|238|240|244|-1|6|-6|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5101|Valparaíso|53|Valparaiso - Isla|233|257|245|-3|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5102|Casablanca|53|Valparaiso - Isla|235|258|244|-5|7|-8|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5103|Concón|53|Valparaiso - Isla|252|278|266|-5|1|-13|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5104|Juan Fernández|53|Valparaiso - Isla|228|272|265|0|0|-11|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5105|Puchuncaví|53|Valparaiso - Isla|237|246|242|6|6|-7|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5107|Quintero|53|Valparaiso - Isla|236|255|239|-4|-4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|58|Marga Marga|5803|Olmué|51|Quillota - Petorca|229|239|227|9|9|-8|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|58|Marga Marga|5804|Villa Alemana|53|Valparaiso - Isla|241|267|250|-3|1|-16|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5703|Llaillay|52|San Felipe - Los A|234|249|243|-7|-2|-5|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5704|Panquehue|52|San Felipe - Los A|235|252|252|-17|-5|-4|-1|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5705|Putaendo|52|San Felipe - Los A|234|249|243|2|6|-11|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5706|Santa María|52|San Felipe - Los A|222|237|236|-7|-6|-4|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|58|Marga Marga|5801|Quilpué|53|Valparaiso - Isla|237|260|249|-10|-4|-17|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|58|Marga Marga|5802|Limache|51|Quillota - Petorca|236|254|240|-1|7|-11|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5603|Cartagena|54|San Antonio|225|245|229|-13|-4|-28|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5604|El Quisco|54|San Antonio|242|250|245|2|7|2|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5605|El Tabo|54|San Antonio|214|225|222|-15|-2|-33|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5606|Santo Domingo|54|San Antonio|236|256|249|-1|2|-13|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5701|San Felipe|52|San Felipe - Los A|245|263|256|-1|4|-6|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|57|San Felipe|5702|Catemu|52|San Felipe - Los A|238|255|245|7|5|0|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|55|Quillota|5502|La Calera|51|Quillota - Petorca|240|263|245|-2|8|-8|0|1|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|55|Quillota|5503|Hijuelas|51|Quillota - Petorca|224|239|234|-5|3|-15|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|55|Quillota|5504|La Cruz|51|Quillota - Petorca|220|234|232|6|2|-15|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|55|Quillota|5506|Nogales|51|Quillota - Petorca|237|251|239|14|13|-4|1|1|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5601|San Antonio|54|San Antonio|237|254|243|-9|1|-12|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|56|San Antonio|5602|Algarrobo|54|San Antonio|237|242|241|3|3|-13|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|Petorca|5401|La Ligua|51|Quillota - Petorca|229|246|238|-9|1|-21|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|Petorca|5402|Cabildo|51|Quillota - Petorca|237|249|247|-1|-3|-8|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|Petorca|5403|Papudo|51|Quillota - Petorca|217|241|234|-13|0|-9|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|Petorca|5404|Petorca|51|Quillota - Petorca|247|257|249|0|12|-2|0|1|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|Petorca|5405|Zapallar|51|Quillota - Petorca|241|273|254|-7|15|-17|0|1|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|55|Quillota|5501|Quillota|51|Quillota - Petorca|247|271|252|-2|1|-12|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Valparaíso|5109|Viña del Mar|53|Valparaiso - Isla|244|268|254|-3|0|-14|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|52|Isla de Pas|5201|Isla de Pascua|53|Valparaiso - Isla|213|238|225|-8|-7|-36|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|53|Los Andes|5301|Los Andes|52|San Felipe - Los A|238|257|246|-9|-2|-14|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|53|Los Andes|5302|Calle Larga|52|San Felipe - Los A|222|246|236|-11|-4|-12|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|53|Los Andes|5303|Rinconada|52|San Felipe - Los A|233|252|242|-8|-3|-5|0|0|0|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|53|Los Andes|5304|San Esteban|52|San Felipe - Los A|230|239|235|-2|10|-6|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6101|Rancagua|61|Cachapoal|244|265|254|-5|1|-10|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6102|Codegua|61|Cachapoal|212|231|229|-11|8|-14|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6103|Coinco|61|Cachapoal|240|251|248|12|21|-4|0|1|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6104|Coltauco|61|Cachapoal|236|250|244|-4|0|-3|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6105|Doñihue|61|Cachapoal|237|268|248|-5|6|-14|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6106|Graneros|61|Cachapoal|221|236|236|7|5|-8|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6308|Placilla|62|Colchagua|234|255|248|6|12|1|0|1|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6309|Pumanque|62|Colchagua|239|253|243|-9|4|-1|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6310|Santa Cruz|62|Colchagua|254|279|263|1|5|-13|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6302|Chépica|62|Colchagua|225|241|240|-17|-3|-23|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6303|Chimbarongo|62|Colchagua|240|257|248|-3|4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6304|Lolol|62|Colchagua|214|237|225|-6|5|-8|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6305|Nancagua|62|Colchagua|237|254|243|-8|-1|-12|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6306|Palmilla|62|Colchagua|228|234|238|-17|-24|3|-1|-1|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6307|Peralillo|62|Colchagua|245|261|245|8|6|3|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6202|La Estrella|63|Cardenal Caro|232|254|251|24|13|1|1|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6203|Litueche|63|Cardenal Caro|222|238|234|-17|-10|-16|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6204|Marchihue|63|Cardenal Caro|236|255|243|-12|2|-5|-1|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6205|Navidad|63|Cardenal Caro|207|231|227|-32|-13|-37|-1|-1|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6206|Paredones|63|Cardenal Caro|223|234|232|-14|-8|-5|-1|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|63|Colchagua|6301|San Fernando|62|Colchagua|245|259|253|-2|3|-11|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6113|Pichidegua|61|Cachapoal|224|242|239|-9|8|-15|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6114|Quinta de Tilcoco|61|Cachapoal|239|258|256|-1|8|0|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6115|Rengo|61|Cachapoal|242|261|250|0|9|-5|0|1|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6116|Requínoa|61|Cachapoal|224|238|235|-15|0|-18|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6117|San Vicente|61|Cachapoal|243|263|256|0|4|-13|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|62|Cardenal Ca|6201|Pichilemu|63|Cardenal Caro|239|260|245|-12|4|-18|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6107|Las Cabras|61|Cachapoal|228|242|238|-9|-6|-19|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6108|Machalí|61|Cachapoal|250|281|271|-1|6|-2|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6109|Malloa|61|Cachapoal|241|255|252|-5|-2|6|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6110|Mostazal|61|Cachapoal|221|235|229|-7|-2|-12|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6111|Olivar|61|Cachapoal|234|249|241|-5|4|-9|0|0|0|20200807|final20200807v1
+2019|8b|6|Región del Libertador|61|Cachapoal|6112|Peumo|61|Cachapoal|239|248|247|-9|-6|11|0|0|1|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7101|Talca|72|Talca|242|266|253|-6|0|-14|-1|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7102|Constitución|72|Talca|249|285|263|3|13|-9|0|1|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7103|Curepto|72|Talca|250|277|257|-10|10|4|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7104|Empedrado|72|Talca|242|260|251|29|24|11|1|1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7105|Maule|72|Talca|247|266|256|-3|5|0|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7106|Pelarco|72|Talca|211|241|238|-23|-3|-6|-1|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7403|Longaví|73|Linares|235|258|247|2|17|-6|0|1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7404|Parral|73|Linares|242|265|248|-6|8|-13|0|1|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7405|Retiro|73|Linares|235|245|243|2|4|-5|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7406|San Javier|73|Linares|249|268|259|1|9|-1|0|1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7407|Villa Alegre|73|Linares|216|229|225|1|2|-10|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7408|Yerbas Buenas|73|Linares|228|259|230|-10|4|-3|-1|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7306|Romeral|71|Curico|238|258|250|-18|-4|-9|-1|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7307|Sagrada Familia|71|Curico|232|251|242|-3|-1|-4|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7308|Teno|71|Curico|243|266|254|-4|2|-13|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7309|Vichuquén|71|Curico|229|248|241|-21|-15|-11|-1|-1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7401|Linares|73|Linares|251|269|260|-3|1|-6|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Linares|7402|Colbún|73|Linares|234|244|242|9|13|3|1|1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|72|Cauquenes|7203|Pelluhue|74|Cauquenes|218|236|234|-23|-17|-9|-1|-1|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7301|Curicó|71|Curico|254|272|263|0|2|-5|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7302|Hualañé|71|Curico|251|278|254|4|6|-17|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7303|Licantén|71|Curico|241|271|248|-5|7|-7|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7304|Molina|71|Curico|235|247|244|1|2|-10|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Curicó|7305|Rauco|71|Curico|240|253|248|1|3|4|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7107|Pencahue|72|Talca|219|240|231|-2|12|-10|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7108|Río Claro|72|Talca|222|253|234|-6|8|-7|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7109|San Clemente|72|Talca|232|249|239|0|2|-11|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Talca|7110|San Rafael|72|Talca|233|251|242|3|4|2|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|72|Cauquenes|7201|Cauquenes|74|Cauquenes|244|259|254|0|1|0|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|72|Cauquenes|7202|Chanco|74|Cauquenes|226|237|234|1|7|3|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8101|Concepción|83|Concepcion|251|278|261|1|5|-15|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8102|Coronel|83|Concepcion|234|251|240|-4|2|-13|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8103|Chiguayante|83|Concepcion|247|274|257|-1|5|-17|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8104|Florida|83|Concepcion|230|239|234|3|4|-12|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8105|Hualqui|83|Concepcion|230|248|233|-9|0|-5|-1|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8106|Lota|83|Concepcion|235|253|240|1|13|-7|0|1|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8312|Tucapel|82|Bio Bio|222|238|235|-18|-3|-40|-1|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8313|Yumbel|82|Bio Bio|241|256|246|6|10|-4|0|1|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8314|Alto Biobío|82|Bio Bio|215|209|230|5|4|12|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8306|Nacimiento|82|Bio Bio|241|263|251|-8|-5|-10|-1|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8307|Negrete|82|Bio Bio|235|257|231|3|-2|-16|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8308|Quilaco|82|Bio Bio|226|227|234|-20|-13|-16|-1|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8309|Quilleco|82|Bio Bio|226|228|224|5|1|-17|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8310|San Rosendo|82|Bio Bio|227|239|230|-14|-11|-25|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8311|Santa Bárbara|82|Bio Bio|230|236|230|7|6|-3|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8207|Tirúa|84|Arauco|217|227|229|-19|-5|-7|-1|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8301|Los Ángeles|82|Bio Bio|243|264|251|-1|3|-6|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8302|Antuco|82|Bio Bio|236|240|235|1|3|-10|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8303|Cabrero|82|Bio Bio|235|256|244|0|4|-3|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8304|Laja|82|Bio Bio|246|276|254|-7|5|2|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Biobío|8305|Mulchén|82|Bio Bio|237|250|238|1|6|6|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8201|Lebu|84|Arauco|243|257|246|0|3|-18|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8202|Arauco|84|Arauco|243|260|248|-5|0|-3|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8203|Cañete|84|Arauco|246|266|250|3|17|-3|0|1|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8204|Contulmo|84|Arauco|237|237|247|4|0|-10|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8205|Curanilahue|84|Arauco|238|263|245|6|13|-3|0|1|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Arauco|8206|Los Álamos|84|Arauco|228|237|241|1|3|-2|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8107|Penco|83|Concepcion|239|260|245|-1|9|-4|0|1|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8108|San Pedro de la Paz|83|Concepcion|247|275|256|1|9|-12|0|1|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8109|Santa Juana|83|Concepcion|245|257|251|9|9|-3|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8110|Talcahuano|83|Concepcion|245|261|249|0|1|-14|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8111|Tomé|83|Concepcion|244|262|253|-4|7|-6|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|81|Concepción|8112|Hualpén|83|Concepcion|237|258|248|-4|-1|-23|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9101|Temuco|92|Cautin Norte|245|268|256|-3|3|-13|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9102|Carahue|92|Cautin Norte|233|243|242|2|9|-3|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9103|Cunco|92|Cautin Norte|237|242|242|2|4|-7|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9104|Curarrehue|93|Cautin Sur|234|234|240|-6|8|-1|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9105|Freire|93|Cautin Sur|234|238|239|0|9|-5|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9106|Galvarino|92|Cautin Norte|223|227|236|-6|-1|1|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9210|Traiguén|91|Malleco|239|250|237|-4|0|-36|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9211|Victoria|91|Malleco|234|241|241|-5|-4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9204|Ercilla|91|Malleco|210|219|228|-22|-1|-14|-1|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9205|Lonquimay|91|Malleco|216|222|228|-6|6|-12|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9206|Los Sauces|91|Malleco|236|237|243|-2|0|6|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9207|Lumaco|91|Malleco|213|212|234|-22|-14|-2|-1|-1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9208|Purén|91|Malleco|227|243|236|-3|2|-18|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9209|Renaico|91|Malleco|234|248|241|0|16|3|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9119|Vilcún|92|Cautin Norte|233|245|244|-5|3|-4|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9120|Villarrica|93|Cautin Sur|246|261|258|-3|5|-7|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9121|Cholchol|92|Cautin Norte|231|232|237|7|10|7|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9201|Angol|91|Malleco|243|264|251|-6|0|-10|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9202|Collipulli|91|Malleco|234|241|241|-1|7|-2|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|92|Malleco|9203|Curacautín|91|Malleco|229|235|230|3|7|-12|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9113|Perquenco|92|Cautin Norte|225|243|230|4|16|-12|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9114|Pitrufquén|93|Cautin Sur|243|262|248|-3|7|-7|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9115|Pucón|93|Cautin Sur|250|267|257|0|5|-5|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9116|Saavedra|92|Cautin Norte|232|236|241|3|13|10|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9117|Teodoro Schmidt|93|Cautin Sur|223|230|234|-8|7|-10|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9118|Toltén|93|Cautin Sur|245|251|248|6|15|-2|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9107|Gorbea|93|Cautin Sur|235|247|234|7|17|-18|0|1|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9108|Lautaro|92|Cautin Norte|229|242|237|-5|3|-13|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9109|Loncoche|93|Cautin Sur|250|266|256|5|14|-3|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9110|Melipeuco|92|Cautin Norte|239|236|245|-4|9|10|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9111|Nueva Imperial|92|Cautin Norte|231|247|243|-6|4|-5|0|0|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucaní|91|Cautín|9112|Padre las Casas|93|Cautin Sur|235|249|243|-4|1|-9|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10101|Puerto Montt|101|Llanquihue|247|266|255|2|4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10102|Calbuco|101|Llanquihue|231|249|240|-3|5|-3|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10103|Cochamó|101|Llanquihue|220|251|239|-11|-5|0|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10104|Fresia|101|Llanquihue|226|237|230|-8|3|-10|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10105|Frutillar|101|Llanquihue|231|256|240|-2|12|-11|0|1|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10106|Los Muermos|101|Llanquihue|230|243|239|-1|-2|-14|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10306|San Juan de la Costa|103|Osorno|225|239|240|-12|7|5|-1|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10307|San Pablo|103|Osorno|231|234|233|0|-7|-8|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|104|Palena|10401|Chaitén|104|Palena|224|232|239|0|-2|-21|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|104|Palena|10402|Futaleufú|104|Palena|254|264|251|19|17|-16|1|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|104|Palena|10403|Hualaihué|101|Llanquihue|236|245|249|2|11|-4|0|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|104|Palena|10404|Palena|104|Palena|233|247|224|-11|-3|-16|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10210|Quinchao|102|Chiloe|241|257|243|-15|-6|-29|-1|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10301|Osorno|103|Osorno|250|270|256|-3|2|-9|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10302|Puerto Octay|103|Osorno|234|250|248|-9|9|13|0|0|1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10303|Purranque|103|Osorno|237|254|246|-3|7|-12|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10304|Puyehue|103|Osorno|224|225|236|-1|-2|-4|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|10305|Río Negro|103|Osorno|238|240|241|1|7|1|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10204|Curaco de Vélez|102|Chiloe|223|230|226|-13|2|-19|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10205|Dalcahue|102|Chiloe|242|261|251|-2|11|-1|0|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10206|Puqueldón|102|Chiloe|232|258|262|-25|-18|-4|-1|-1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10207|Queilén|102|Chiloe|233|239|241|-7|-3|-12|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10208|Quellón|102|Chiloe|235|247|241|2|9|-6|0|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10209|Quemchi|102|Chiloe|244|256|251|-2|6|2|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10107|Llanquihue|101|Llanquihue|243|249|245|14|10|8|1|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10108|Maullín|101|Llanquihue|231|239|236|-3|11|-8|0|1|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|10109|Puerto Varas|101|Llanquihue|244|272|256|-6|3|-7|0|0|0|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10201|Castro|102|Chiloe|245|259|247|-1|5|-13|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10202|Ancud|102|Chiloe|241|259|247|-1|7|-14|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloé|10203|Chonchi|102|Chiloe|245|255|246|-6|-1|-1|0|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|111|Coyhaique|11101|Coyhaique|111|Coyhaique|235|257|247|-7|-6|-11|-1|0|-1|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|111|Coyhaique|11102|Lago Verde|111|Coyhaique|254|243|261|35|15|0|1|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|112|Aysén|11201|Aysén|111|Coyhaique|248|263|257|0|3|6|0|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|112|Aysén|11202|Cisnes|111|Coyhaique|212|235|233|-31|-17|-14|-1|-1|-1|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|112|Aysén|11203|Guaitecas|111|Coyhaique|258|257|256|16|-4|4|0|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|113|Capitán Pra|11301|Cochrane|111|Coyhaique|225|260|233|1|15|-6|0|1|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|113|Capitán Pra|11302|O'higgins|111|Coyhaique|277|293|297|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|113|Capitán Pra|11303|Tortel|111|Coyhaique|254|287|268|0|0|-10|0|0|0|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|114|General Car|11401|Chile Chico|111|Coyhaique|248|269|260|27|36|25|1|1|1|20200807|final20200807v1
+2019|8b|11|Región de Aysén del G|114|General Car|11402|Río Ibáñez|111|Coyhaique|235|240|241|18|13|-19|1|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|121|Magallanes|12101|Punta Arenas|121|Magallanes|243|259|250|-2|1|-14|0|0|-1|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|121|Magallanes|12102|Laguna Blanca|121|Magallanes|231|243|233|0|24|21|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|121|Magallanes|12103|Río Verde|121|Magallanes|168|193|195|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|121|Magallanes|12104|San Gregorio|121|Magallanes|267|246|249|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|122|Antártica C|12201|Cabo de Hornos|121|Magallanes|247|261|247|-11|4|-18|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|122|Antártica C|12202|Antártica|121|Magallanes||||||||||20200807|final20200807v1
+2019|8b|12|Región de Magallanes|123|Tierra del|12301|Porvenir|121|Magallanes|246|244|252|1|-1|-8|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|123|Tierra del|12302|Primavera|121|Magallanes|240|241|246|-10|-31|0|0|-1|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|123|Tierra del|12303|Timaukel|121|Magallanes|291|260|297|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|124|Última Espe|12401|Natales|121|Magallanes|240|257|243|-4|-1|-8|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes|124|Última Espe|12402|Torres del Paine|121|Magallanes|248|270|275|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13101|Santiago|131|Centro|246|271|258|-11|-7|-26|-1|-1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13102|Cerrillos|134|Poniente|233|257|239|-7|0|-15|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13103|Cerro Navia|134|Poniente|227|247|236|-2|3|-10|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13104|Conchalí|137|Norte|227|247|234|-4|4|-14|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13105|El Bosque|132|Sur|238|262|245|3|10|-6|0|1|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13106|Estación Central|134|Poniente|234|254|247|1|3|-8|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|136|Talagante|13602|El Monte|135|Talagante|227|239|234|-3|-3|-19|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|136|Talagante|13603|Isla de Maipo|135|Talagante|227|245|238|1|1|-8|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|136|Talagante|13604|Padre Hurtado|135|Talagante|235|257|245|-3|3|-7|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|136|Talagante|13605|Peñaflor|135|Talagante|233|253|243|-5|4|-7|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|135|Melipilla|13501|Melipilla|135|Talagante|240|260|249|-1|7|-9|0|1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|135|Melipilla|13502|Alhué|135|Talagante|220|232|240|-4|0|7|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|135|Melipilla|13503|Curacaví|135|Talagante|228|249|239|-11|-3|-11|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|135|Melipilla|13504|María Pinto|135|Talagante|221|238|232|-12|1|-20|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|135|Melipilla|13505|San Pedro|135|Talagante|233|260|241|4|19|-11|0|1|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|136|Talagante|13601|Talagante|135|Talagante|250|273|258|-4|1|-10|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|133|Chacabuco|13302|Lampa|137|Norte|231|252|239|1|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|133|Chacabuco|13303|Tiltil|137|Norte|228|239|238|11|9|-1|1|1|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|134|Maipo|13401|San Bernardo|132|Sur|232|256|243|-5|3|-9|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|134|Maipo|13402|Buin|132|Sur|237|261|248|-3|3|-11|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|134|Maipo|13403|Calera de Tango|132|Sur|240|263|247|3|7|-16|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|134|Maipo|13404|Paine|132|Sur|235|259|246|-9|1|-8|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13131|San Ramón|132|Sur|236|261|244|-3|6|-13|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13132|Vitacura|133|Oriente|272|314|290|-2|1|-19|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|132|Cordillera|13201|Puente Alto|136|Cordillera|240|269|252|-4|4|-12|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|132|Cordillera|13202|Pirque|136|Cordillera|223|246|235|-4|2|-12|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|132|Cordillera|13203|San José de Maipo|136|Cordillera|236|246|239|2|4|-2|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|133|Chacabuco|13301|Colina|137|Norte|253|286|265|-2|3|-6|0|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13125|Quilicura|137|Norte|243|274|251|-3|4|-14|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13126|Quinta Normal|134|Poniente|237|260|247|-2|8|-9|0|1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13127|Recoleta|137|Norte|237|261|247|-3|5|-7|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13128|Renca|134|Poniente|229|255|246|-8|2|-6|-1|0|0|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13129|San Joaquín|131|Centro|231|248|237|2|4|-13|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13130|San Miguel|131|Centro|246|268|259|0|2|-11|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13119|Maipú|134|Poniente|245|273|253|-3|4|-15|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13120|Ñuñoa|133|Oriente|260|292|272|-2|4|-16|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13121|Pedro Aguirre Cerda|131|Centro|232|253|239|-2|4|-15|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13122|Peñalolén|133|Oriente|237|267|249|-6|1|-10|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13123|Providencia|133|Oriente|267|295|280|-8|-6|-23|-1|-1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13124|Pudahuel|134|Poniente|239|262|250|-4|1|-8|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13113|La Reina|133|Oriente|261|293|277|-4|-1|-12|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13114|Las Condes|133|Oriente|273|307|285|0|0|-17|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13115|Lo Barnechea|133|Oriente|265|305|277|-3|1|-13|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13116|Lo Espejo|132|Sur|228|245|234|0|6|-8|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13117|Lo Prado|134|Poniente|226|248|237|-1|7|-8|0|1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13118|Macul|133|Oriente|240|265|254|2|8|-10|0|1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13107|Huechuraba|137|Norte|244|276|257|-1|3|-10|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13108|Independencia|137|Norte|243|259|249|-4|-1|-12|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13109|La Cisterna|132|Sur|234|258|245|-7|-1|-12|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13110|La Florida|136|Cordillera|244|269|253|1|6|-12|0|1|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13111|La granja|132|Sur|231|256|240|-3|5|-11|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana|131|Santiago|13112|La Pintana|136|Cordillera|232|252|238|1|4|-7|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14101|Valdivia|141|Valdivia|251|270|256|-1|6|-12|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14102|Corral|141|Valdivia|217|232|231|-13|2|-2|-1|0|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14103|Lanco|141|Valdivia|237|244|244|6|10|-1|0|1|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14104|Los Lagos|141|Valdivia|232|244|238|-2|6|-5|0|0|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14105|Máfil|141|Valdivia|224|228|228|-2|-4|-13|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14106|Mariquina|141|Valdivia|229|241|241|-3|-3|-2|0|0|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14107|Paillaco|141|Valdivia|237|243|246|-6|-1|-8|0|0|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|14108|Panguipulli|141|Valdivia|238|239|240|-1|-2|-6|0|0|0|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|142|Del Ranco|14201|La Unión|142|Ranco|241|255|247|-6|-5|-11|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|142|Del Ranco|14202|Futrono|142|Ranco|232|240|237|-15|-9|-14|-1|-1|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|142|Del Ranco|14203|Lago Ranco|142|Ranco|232|237|241|0|-6|-12|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|142|Del Ranco|14204|Río Bueno|142|Ranco|241|253|245|-3|-3|-6|0|0|0|20200807|final20200807v1
+2019|8b|15|Región de Arica y Par|151|Arica|15101|Arica|151|Arica|244|268|253|1|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|15|Región de Arica y Par|151|Arica|15102|Camarones|151|Arica|180|199|198|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|15|Región de Arica y Par|152|Parinacota|15201|Putre|152|Parinacota|230|253|254|14|30|20|0|1|0|20200807|final20200807v1
+2019|8b|15|Región de Arica y Par|152|Parinacota|15202|General Lagos|152|Parinacota|191|209|213|0|0|0|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16101|Chillán|161|Diguillín|244|267|253|-4|4|-12|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16102|Bulnes|161|Diguillín|232|246|239|-11|3|-8|-1|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16103|Chillán Viejo|161|Diguillín|238|255|246|2|3|0|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16104|El Carmen|161|Diguillín|237|246|239|5|6|-13|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16105|Pemuco|161|Diguillín|229|236|231|7|11|-5|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16106|Pinto|161|Diguillín|232|246|255|7|16|14|0|1|1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|163|Punilla|16303|Ñiquén|161|Diguillín|229|251|236|-2|14|-3|0|1|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|163|Punilla|16304|San Fabián|161|Diguillín|235|242|234|4|-2|-14|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|163|Punilla|16305|San Nicolás|161|Diguillín|275|314|304|2|8|6|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16204|Ninhue|161|Diguillín|250|256|258|4|4|15|0|0|1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16205|Portezuelo|161|Diguillín|246|258|254|6|16|14|0|1|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16206|Ránquil|161|Diguillín|240|251|250|-4|14|6|0|1|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16207|Treguaco|161|Diguillín|205|219|215|-21|-14|-41|-1|-1|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|163|Punilla|16301|San Carlos|161|Diguillín|241|266|249|-4|1|-13|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|163|Punilla|16302|Coihueco|161|Diguillín|233|249|237|-1|7|-10|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16107|Quillón|161|Diguillín|234|259|242|-5|-1|-19|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16108|San Ignacio|161|Diguillín|225|238|238|-6|-2|-6|0|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|16109|Yungay|161|Diguillín|252|270|255|10|12|-7|1|1|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16201|Quirihue|161|Diguillín|244|253|246|3|1|-14|0|0|-1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16202|Cobquecura|161|Diguillín|213|252|237|-15|11|4|-1|0|0|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|162|Itata|16203|Coelemu|161|Diguillín|233|252|248|-15|-2|-7|-1|0|0|20200807|final20200807v1

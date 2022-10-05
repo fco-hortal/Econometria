@@ -1,0 +1,45 @@
+agno|grado|cod_reg|nom_reg|cod_deprov|nom_deprov|prom_lect8b_deprov|prom_mate8b_deprov|prom_soc8b_deprov|dif_lect8b_deprov|dif_mate8b_deprov|dif_soc8b_deprov|sigdif_lect8b_deprov|sigdif_mate8b_deprov|sigdif_soc8b_deprov|fecha_bbdd|codigo_bbdd
+2019|8b|1|Región de Tarapacá|11|Iquique|239|256|244|-2|2|-15|0|0|-1|20200807|final20200807v1
+2019|8b|1|Región de Tarapacá|14|Tamarugal|224|243|231|-6|9|-4|0|1|0|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|21|Antofagasta|241|256|246|-2|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|2|Región de Antofagasta|22|El Loa|241|260|247|-5|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|31|Copiapo - Chanaral|232|247|242|-6|1|-7|-1|0|-1|20200807|final20200807v1
+2019|8b|3|Región de Atacama|32|Huasco - Vallenar|237|249|243|-6|4|-8|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|41|Elqui|243|263|254|-3|3|-7|0|0|-1|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|42|Limari|241|256|250|-3|5|-4|0|0|0|20200807|final20200807v1
+2019|8b|4|Región de Coquimbo|43|Choapa|232|246|239|-7|4|-13|-1|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|51|Quillota - Petorca|238|257|244|-2|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|52|San Felipe - Los Andes|238|255|247|-5|1|-9|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|53|Valparaiso - Isla de Pascua|239|263|250|-4|1|-13|0|0|-1|20200807|final20200807v1
+2019|8b|5|Región de Valparaíso|54|San Antonio|235|251|241|-7|1|-14|-1|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador Bernardo O'higgins|61|Cachapoal|239|260|251|-4|4|-8|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador Bernardo O'higgins|62|Colchagua|243|261|251|-3|3|-11|0|0|-1|20200807|final20200807v1
+2019|8b|6|Región del Libertador Bernardo O'higgins|63|Cardenal Caro|229|249|239|-15|-1|-15|-1|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|71|Curico|247|265|256|-2|1|-8|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|72|Talca|241|266|252|-3|3|-11|0|0|-1|20200807|final20200807v1
+2019|8b|7|Región del Maule|73|Linares|243|262|252|-2|6|-6|0|0|0|20200807|final20200807v1
+2019|8b|7|Región del Maule|74|Cauquenes|238|253|248|-3|-1|-1|0|0|0|20200807|final20200807v1
+2019|8b|8|Región del Biobío|82|Bio Bio|240|259|247|-1|3|-6|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|83|Concepcion|244|266|252|0|5|-12|0|0|-1|20200807|final20200807v1
+2019|8b|8|Región del Biobío|84|Arauco|239|255|245|0|6|-5|0|1|0|20200807|final20200807v1
+2019|8b|9|Región de La Araucanía|91|Malleco|233|245|241|-5|2|-10|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucanía|92|Cautin Norte|239|257|250|-3|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|9|Región de La Araucanía|93|Cautin Sur|241|255|249|-2|7|-7|0|1|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|101|Llanquihue|242|261|251|0|5|-7|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|102|Chiloe|241|255|246|-3|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|103|Osorno|245|263|252|-3|3|-7|0|0|-1|20200807|final20200807v1
+2019|8b|10|Región de Los Lagos|104|Palena|235|245|239|3|4|-18|0|0|-1|20200807|final20200807v1
+2019|8b|11|Región de Aysén del General Carlos Ibañe|111|Coyhaique|237|257|249|-4|-2|-6|0|0|0|20200807|final20200807v1
+2019|8b|12|Región de Magallanes y de la Antártica C|121|Magallanes|242|258|249|-3|0|-13|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|131|Centro|243|266|254|-8|-4|-22|-1|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|132|Sur|234|258|244|-3|4|-9|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|133|Oriente|260|293|273|-3|1|-16|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|134|Poniente|238|263|248|-3|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|135|Talagante|237|257|246|-3|3|-10|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|136|Cordillera|240|266|249|-1|5|-12|0|0|-1|20200807|final20200807v1
+2019|8b|13|Región Metropolitana de Santiago|137|Norte|241|267|250|-2|4|-10|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|141|Valdivia|243|256|249|-1|4|-8|0|0|-1|20200807|final20200807v1
+2019|8b|14|Región de los Ríos|142|Ranco|239|249|244|-6|-6|-10|0|0|-1|20200807|final20200807v1
+2019|8b|15|Región de Arica y Parinacota|151|Arica|244|268|253|1|4|-11|0|0|-1|20200807|final20200807v1
+2019|8b|15|Región de Arica y Parinacota|152|Parinacota|221|242|246|4|18|25|0|1|1|20200807|final20200807v1
+2019|8b|16|Región de Ñuble|161|Diguillín|241|261|250|-2|4|-9|0|0|-1|20200807|final20200807v1
